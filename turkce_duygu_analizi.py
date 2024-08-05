@@ -99,7 +99,7 @@ sentence = str(input("Cümleyi girin : "))
 prediction, probability = predict_sentiment(sentence)
 
 
-# cümlenin tahmini değerlerini yazdırdığımız ve datasete eklediğimiz alan
+# cümlenin tahmini değerlerini yazdırdığımız alan
 if prediction == 0:
     print("Girilen bu cümle NEGATİF!")
 else:
